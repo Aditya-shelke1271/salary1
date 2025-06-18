@@ -1,0 +1,15 @@
+package javalerner;
+
+public class salary_details {
+
+	public static void main(String[] args) {
+		
+		E_salary s1 = new E_salary();
+		
+		System.out.println("Customer's details :  " );
+		
+		s1.t_salary();
+
+	}
+
+}
