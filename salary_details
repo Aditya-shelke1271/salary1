@@ -1,3 +1,5 @@
+//This can print salary details.
+
 package javalerner;
 
 public class salary_details {
