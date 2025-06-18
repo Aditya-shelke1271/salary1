@@ -1,0 +1,22 @@
+package javalerner;
+
+public class E_salary  {
+
+	int customer_id = 562757;
+	String c_name = "anil gupta";
+	int c_salary = 20000;
+	int c_allowance = 2500;
+	int c_deduction = 2000;
+	
+	void t_salary() {
+		int total_salary;
+		total_salary = c_salary+c_allowance-c_deduction;
+		
+		System.out.println("Customer salary :- " + c_salary );
+		System.out.println("Customer allowance  :- " + c_allowance);
+		System.out.println("Customer deduction :- "+ c_deduction);
+		System.out.println("total salary is a :- "+ total_salary);
+		
+	}
+
+}
